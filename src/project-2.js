@@ -51,15 +51,6 @@ body {
 	vertical-align: bottom;
 }
 
-.mglass {
-	display: inline-block;
-	pointer-events: none;
-	-webkit-transform: rotate(-45deg);
-	-moz-transform: rotate(-45deg);
-	-o-transform: rotate(-45deg);
-	-ms-transform: rotate(-45deg);
-}
-
 .searchbutton {
 	position: absolute;
 	font-size: 22px;
