@@ -70,7 +70,7 @@ body {
 
 .search {
 	position: absolute;
-	left: 49px; /* Button width-1px (Not 50px/100% because that will sometimes show a 1px line between the search box and button) */
+	left: 49px; 
 	background-color: white;
 	outline: none;
 	border: none;
@@ -85,17 +85,17 @@ body {
 }
 
 .search:focus {
-	width: 363px; /* Bar width+1px */
+	width: 418px; 
 	padding: 0 16px 0 0;
 }
 
 .expandright {
 	left: auto;
-	right: 49px; /* Button width-1px */
+	right: 60px; 
 }
 
 .expandright:focus {
-	padding: 0 0 0 16px;
+	padding: 0 0 0 20px;
 }
 
     main {
@@ -123,7 +123,8 @@ body {
 
     .app-footer a {
       margin-left: 5px;
-    }
+  
+
   `;
 
   constructor() {
@@ -139,6 +140,10 @@ body {
     <label class="button searchbutton" for="searchleft"><span class="mglass">&#9906;</span></label>
   </form>
 </div>
+
+
+
+
     `;
   }
 }
